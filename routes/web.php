@@ -20,3 +20,11 @@ Route::get('/', function () {
 
 
 Route::post('/pay',[PaymentController::class, 'store']);
+
+Route::get('/success',[PaymentController::class, 'success']);
+
+Route::get('/test',function () {
+
+
+
+});
